@@ -21,14 +21,14 @@ Site; neon yeşil tonları (`#00ff41`), tarama çizgileri (scanlines) efekti, si
 ## 🗂️ Portfolyo Bölümleri (Bilgi Panelleri)
 
 Site üzerinde interaktif olarak gezilebilen 8 ana modül bulunur:
-1. **01 // EĞİTİM (EDU):** Uludağ Üniversitesi Bilgisayar Programcılığı geçmişi ve akademik detaylar.
-2. **02 // DENEYİM (EXP):** İnegöl Belediyesi, Meram Belediyesi stajları ve Anticverse topluluk temsilciliği gibi sektörel deneyimler.
-3. **03 // PROJELER:** Web3 hackathon projesi (EchoBlade), emlak asistanı uygulaması (OpenHaven Rental) gibi teknik işler.
+1. **01 // EĞİTİM (EDU):** Eğitim geçmişi ve akademik detaylar.
+2. **02 // DENEYİM (EXP):** Stajları ve sektörel deneyimler.
+3. **03 // PROJELER:** SOLUK, SECURELİFT gibi teknik projeler.
 4. **04 // YETENEKLER (SKILLS):** IDA Pro, x64dbg, Wireshark, Burp Suite gibi siber güvenlik araçlarının yetkinlik seviyeleri.
-5. **05 // SERTİFİKALAR (CERTS):** freeCodeCamp Web Tasarımı, Siber Kulüpler Birliği Sızma Testi eğitimleri vb.
+5. **05 // SERTİFİKALAR (CERTS):** Cisco, Siber Kulüpler Birliği Sızma Testi eğitimleri vb.
 6. **06 // REFERANSLAR (REFS):** Akademik danışmanlar ve mentorlardan alınan referanslar.
 7. **07 // TASARIM (DESIGN):** Tipografi, logo, poster ve dijital yaratıcı çalışmalar.
-8. **08 // RAPORLAR (REPORTS):** Tersine mühendislik süreçleri ve Aurotun Stealer gibi zararlı yazılımların statik/dinamik analiz raporları.
+8. **08 // RAPORLAR (REPORTS):** Tersine mühendislik süreçleri ve zararlı yazılımların statik/dinamik analiz raporları.
 
 ---
 
@@ -47,14 +47,7 @@ Site üzerinde interaktif olarak gezilebilen 8 ana modül bulunur:
 
 ## 🎭 Gizli Detaylar (Easter Eggs)
 
-Geliştiriciler ve meraklı gözler için web sitesinin kaynak kodunun en üstünde (View Source) şu satırlar yer almaktadır:
-
-```
-"if you can read this, you already know where to look."
-- sena was here.
-```
-
-Kod içinde Nazım Hikmet şiiri ve sinema replikleri de bulunur. Keşfetmeye davet ediyorum! 🔍
+Geliştiriciler ve meraklı gözler için web sitesinin kaynak kodunun içinde sürpriz yerleştirilmiştir.
 
 ---
 
