@@ -1,6 +1,6 @@
 # 🌐 Kişisel Portfolyo
 
-Bu proje, **Fatmanur Sena Bülbül**'ün (Malware Analyst / Siber Güvenlik Uzmanı) profesyonel geçmişini, projelerini, teknik yeteneklerini ve siber güvenlik raporlarını sergilediği fütüristik, siberpunk ve terminal temalı interaktif bir portfolyo web sitesidir. 
+Bu proje, **Fatmanur Sena Bülbül**'ün (Siber güvenlik & SOC Analist) profesyonel geçmişini, projelerini, teknik yeteneklerini ve siber güvenlik raporlarını sergilediği fütüristik, siberpunk ve terminal temalı interaktif bir portfolyo web sitesidir. 
 
 Site; neon yeşil tonları (`#00ff41`), tarama çizgileri (scanlines) efekti, siber matris animasyonları ve derinlik hissi veren dinamik kamera sarsıntıları/açılarıyla gerçek bir hacker terminali veya siber güvenlik arayüzü hissi uyandıracak şekilde tasarlanmıştır.
 
