@@ -1,4 +1,4 @@
-# 🌐 Cyberpunk & Terminal Temalı İnteraktif Portfolyo
+# 🌐 Kişisel Portfolyo
 
 Bu proje, **Fatmanur Sena Bülbül**'ün (Malware Analyst / Siber Güvenlik Uzmanı) profesyonel geçmişini, projelerini, teknik yeteneklerini ve siber güvenlik raporlarını sergilediği fütüristik, siberpunk ve terminal temalı interaktif bir portfolyo web sitesidir. 
 
