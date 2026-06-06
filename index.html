@@ -375,7 +375,7 @@
 
     #main-name {
       font-family: 'Orbitron', monospace;
-      font-size: clamp(16px, 2.5vw, 28px);
+      font-size: clamp(22px, 3.2vw, 38px);
       font-weight: 900;
       color: #fff;
       letter-spacing: 6px;
@@ -386,7 +386,7 @@
 
     #main-title {
       font-family: 'Rajdhani', sans-serif;
-      font-size: clamp(11px, 1.4vw, 16px);
+      font-size: clamp(13px, 1.7vw, 20px);
       color: var(--neon);
       letter-spacing: 4px;
       text-transform: uppercase;
@@ -403,7 +403,7 @@
 
     .contact-mini a {
       color: var(--dim);
-      font-size: 10px;
+      font-size: 12px;
       text-decoration: none;
       letter-spacing: 1px;
       transition: color 0.3s;
@@ -465,7 +465,7 @@
       border: 1px solid rgba(0, 255, 65, 0.25);
       background: rgba(0, 10, 0, 0.7);
       backdrop-filter: blur(10px);
-      padding: clamp(10px, 1.2vw, 16px);
+      padding: clamp(14px, 1.5vw, 20px);
       cursor: pointer;
       transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
       overflow: hidden;
@@ -494,7 +494,7 @@
 
     .panel-card .card-label {
       font-family: 'Orbitron', monospace;
-      font-size: 10px;
+      font-size: 13px;
       letter-spacing: 3px;
       color: var(--neon2);
       text-transform: uppercase;
@@ -504,7 +504,7 @@
 
     .panel-card .card-title {
       font-family: 'Orbitron', monospace;
-      font-size: clamp(11px, 1.1vw, 16px);
+      font-size: clamp(14px, 1.5vw, 20px);
       font-weight: 700;
       color: var(--neon);
       letter-spacing: 2px;
@@ -512,9 +512,9 @@
     }
 
     .panel-card .card-preview {
-      font-size: 10px;
+      font-size: 12px;
       color: var(--dim);
-      line-height: 1.5;
+      line-height: 1.6;
       overflow: hidden;
       display: -webkit-box;
       -webkit-line-clamp: 3;
@@ -560,66 +560,68 @@
    Panel h ≈ 20vh, 4×20=80vh, 5 boşluk × 4vh = 20vh
    Satırlar: 4vh | 28vh | 52vh | 76vh
    =================================================== */
+    /* Sol: 1-edu, 3-skills, 5-refs, 7-design */
     #panel-edu {
-      width: clamp(170px, 17vw, 245px);
-      height: clamp(110px, 20vh, 180px);
-      top: 4vh;
-      left: 1.2%;
-      z-index: 10;
-    }
-
-    #panel-projects {
-      width: clamp(170px, 17vw, 245px);
-      height: clamp(110px, 20vh, 180px);
-      top: 28vh;
-      left: 1.2%;
-      z-index: 10;
-    }
-
-    #panel-design {
-      width: clamp(170px, 17vw, 245px);
-      height: clamp(110px, 20vh, 180px);
-      top: 52vh;
+      width: clamp(190px, 19vw, 270px);
+      height: clamp(130px, 22vh, 200px);
+      top: 2vh;
       left: 1.2%;
       z-index: 10;
     }
 
     #panel-skills {
-      width: clamp(170px, 17vw, 245px);
-      height: clamp(110px, 20vh, 180px);
-      top: 76vh;
+      width: clamp(190px, 19vw, 270px);
+      height: clamp(130px, 22vh, 200px);
+      top: 24vh;
       left: 1.2%;
       z-index: 10;
     }
 
-    #panel-exp {
-      width: clamp(170px, 17vw, 245px);
-      height: clamp(110px, 20vh, 180px);
-      top: 4vh;
-      right: 1.2%;
-      z-index: 10;
-    }
-
     #panel-refs {
-      width: clamp(170px, 17vw, 245px);
-      height: clamp(110px, 20vh, 180px);
-      top: 28vh;
-      right: 1.2%;
+      width: clamp(190px, 19vw, 270px);
+      height: clamp(130px, 22vh, 200px);
+      top: 46vh;
+      left: 1.2%;
       z-index: 10;
     }
 
-    #panel-reports {
-      width: clamp(170px, 17vw, 245px);
-      height: clamp(110px, 20vh, 180px);
-      top: 52vh;
+    #panel-design {
+      width: clamp(190px, 19vw, 270px);
+      height: clamp(130px, 22vh, 200px);
+      top: 68vh;
+      left: 1.2%;
+      z-index: 10;
+    }
+
+    /* Sağ: 2-exp, 4-certs, 6-projects, 8-reports */
+    #panel-exp {
+      width: clamp(190px, 19vw, 270px);
+      height: clamp(130px, 22vh, 200px);
+      top: 2vh;
       right: 1.2%;
       z-index: 10;
     }
 
     #panel-certs {
-      width: clamp(170px, 17vw, 245px);
-      height: clamp(110px, 20vh, 180px);
-      top: 76vh;
+      width: clamp(190px, 19vw, 270px);
+      height: clamp(130px, 22vh, 200px);
+      top: 24vh;
+      right: 1.2%;
+      z-index: 10;
+    }
+
+    #panel-projects {
+      width: clamp(190px, 19vw, 270px);
+      height: clamp(130px, 22vh, 200px);
+      top: 46vh;
+      right: 1.2%;
+      z-index: 10;
+    }
+
+    #panel-reports {
+      width: clamp(190px, 19vw, 270px);
+      height: clamp(130px, 22vh, 200px);
+      top: 68vh;
       right: 1.2%;
       z-index: 10;
     }
@@ -3440,31 +3442,31 @@
           </div>
         </div>
 
-        <div class="panel-card" id="panel-projects" data-panel="projects">
-          <div class="corner tl"></div>
-          <div class="corner tr"></div>
-          <div class="corner bl"></div>
-          <div class="corner br"></div>
-          <div class="card-label">05 // PROJELER</div>
-          <div class="card-title">PROJELER</div>
-          <div class="card-preview">
-            TEKNOFEST 2024<br />
-            SOLUK · ProLoper<br />
-            <span style="color:var(--neon3);font-size:9px;">1.LİK ÖDÜLÜ ✦</span>
-          </div>
-        </div>
-
         <div class="panel-card" id="panel-refs" data-panel="refs">
           <div class="corner tl"></div>
           <div class="corner tr"></div>
           <div class="corner bl"></div>
           <div class="corner br"></div>
-          <div class="card-label">06 // REFERANSLAR</div>
+          <div class="card-label">05 // REFERANSLAR</div>
           <div class="card-title">REFERANSLAR</div>
           <div class="card-preview">
             Prof. Dr. Melih Engin<br />
             Doç. Dr. Erdal Özdoğan<br />
             <span style="color:var(--neon);font-size:9px;">ULUDAĞ ÜNİVERSİTESİ</span>
+          </div>
+        </div>
+
+        <div class="panel-card" id="panel-projects" data-panel="projects">
+          <div class="corner tl"></div>
+          <div class="corner tr"></div>
+          <div class="corner bl"></div>
+          <div class="corner br"></div>
+          <div class="card-label">06 // PROJELER</div>
+          <div class="card-title">PROJELER</div>
+          <div class="card-preview">
+            TEKNOFEST 2024<br />
+            SOLUK · ProLoper<br />
+            <span style="color:var(--neon3);font-size:9px;">1.LİK ÖDÜLÜ ✦</span>
           </div>
         </div>
 
@@ -3638,8 +3640,8 @@
           exp: { label: '02 // DENEYİM', title: 'DENEYİM', preview: 'ZAYOTEM · Echo · Uludağ Üni.<br />Google Dev Group Bursa<br /><span style="color:var(--neon);font-size:9px;">8+ POZİSYON // 2021→HALEN</span>' },
           skills: { label: '03 // YETENEKLER', title: 'YETENEKLER', preview: 'Burp Suite · Wireshark · IDA<br />Metasploit · x64dbg · FlareVM<br /><span style="color:var(--neon);font-size:9px;">SİBER GÜVENLİK + WEB GELİŞTİRME</span>' },
           certs: { label: '04 // SERTİFİKALAR', title: 'SERTİFİKALAR', preview: 'Cisco · KOSGEB · Siber Kulüpler<br />FreeCodeCamp · Coderspace<br /><span style="color:var(--neon);font-size:9px;">12+ SERTİFİKA // 2022→2026</span>' },
-          projects: { label: '05 // PROJELER', title: 'PROJELER', preview: 'TEKNOFEST 2024<br />SOLUK · ProLoper<br /><span style="color:var(--neon3);font-size:9px;">1.LİK ÖDÜLÜ ✦</span>' },
-          refs: { label: '06 // REFERANSLAR', title: 'REFERANSLAR', preview: 'Prof. Dr. Melih Engin<br />Doç. Dr. Erdal Özdoğan<br /><span style="color:var(--neon);font-size:9px;">ULUDAĞ ÜNİVERSİTESİ</span>' },
+          refs: { label: '05 // REFERANSLAR', title: 'REFERANSLAR', preview: 'Prof. Dr. Melih Engin<br />Doç. Dr. Erdal Özdoğan<br /><span style="color:var(--neon);font-size:9px;">ULUDAĞ ÜNİVERSİTESİ</span>' },
+          projects: { label: '06 // PROJELER', title: 'PROJELER', preview: 'TEKNOFEST 2024<br />SOLUK · ProLoper<br /><span style="color:var(--neon3);font-size:9px;">1.LİK ÖDÜLÜ ✦</span>' },
           design: { label: '07 // TASARIM', title: 'TASARIM', preview: 'SecureLift Web · Tipografi<br />Logo · Poster · Masal PDF<br /><span style="color:var(--neon2);font-size:9px;">YARATICI ÇALIŞMALAR</span>' },
           reports: { label: '08 // RAPORLAR', title: 'RAPORLAR', preview: 'Zararlı Yazılım Analizi<br />Tersine Mühendislik<br /><span style="color:var(--neon3);font-size:9px;">ZARARLIYAZILIM ANALİZİ</span>' }
         }
@@ -3681,8 +3683,8 @@
           exp: { label: '02 // EXPERIENCE', title: 'EXPERIENCE', preview: 'ZAYOTEM · Echo · Uludağ Uni.<br />Google Dev Group Bursa<br /><span style="color:var(--neon);font-size:9px;">8+ ROLES // 2021→PRESENT</span>' },
           skills: { label: '03 // SKILLS', title: 'SKILLS', preview: 'Burp Suite · Wireshark · IDA<br />Metasploit · x64dbg · FlareVM<br /><span style="color:var(--neon);font-size:9px;">CYBERSECURITY + WEB DEVELOPMENT</span>' },
           certs: { label: '04 // CERTIFICATES', title: 'CERTIFICATES', preview: 'Cisco · KOSGEB · Cyber Clubs<br />FreeCodeCamp · Coderspace<br /><span style="color:var(--neon);font-size:9px;">12+ CERTIFICATES // 2022→2026</span>' },
-          projects: { label: '05 // PROJECTS', title: 'PROJECTS', preview: 'TEKNOFEST 2024<br />SOLUK · ProLoper<br /><span style="color:var(--neon3);font-size:9px;">1ST PRIZE ✦</span>' },
-          refs: { label: '06 // REFERENCES', title: 'REFERENCES', preview: 'Prof. Dr. Melih Engin<br />Assoc. Prof. Erdal Özdoğan<br /><span style="color:var(--neon);font-size:9px;">BURSA ULUDAĞ UNIVERSITY</span>' },
+          refs: { label: '05 // REFERENCES', title: 'REFERENCES', preview: 'Prof. Dr. Melih Engin<br />Assoc. Prof. Erdal Özdoğan<br /><span style="color:var(--neon);font-size:9px;">BURSA ULUDAĞ UNIVERSITY</span>' },
+          projects: { label: '06 // PROJECTS', title: 'PROJECTS', preview: 'TEKNOFEST 2024<br />SOLUK · ProLoper<br /><span style="color:var(--neon3);font-size:9px;">1ST PRIZE ✦</span>' },
           design: { label: '07 // DESIGN', title: 'DESIGN', preview: 'SecureLift Web · Typography<br />Logo · Poster · Storybook PDF<br /><span style="color:var(--neon2);font-size:9px;">CREATIVE WORK</span>' },
           reports: { label: '08 // REPORTS', title: 'REPORTS', preview: 'Malware Analysis<br />Reverse Engineering<br /><span style="color:var(--neon3);font-size:9px;">MALWARE ANALYSIS</span>' }
         }
